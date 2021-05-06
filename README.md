@@ -15,11 +15,6 @@ See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/)
 You need the following:
 
 - Node.js (version 10.0.0 or later)
-  > We recommend running Node under your user. If you're running node under root privilege instead, you'll need to update the Node configuration to allow global module installs using binaries by running:
-
-```
-npm config set unsafe-perm true
-```
 
 - Docker (version 17.03 or later)
 
