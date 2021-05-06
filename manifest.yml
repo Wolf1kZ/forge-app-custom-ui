@@ -1,0 +1,22 @@
+modules:
+  jira:projectPage:
+    - key: forge-app-custom-ui-project-page
+      resource: main
+      resolver:
+        function: resolver
+      title: Hello JIRA
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/forge-app/build
+app:
+  id: ari:cloud:ecosystem::app/2b8b1321-bd1b-4a9b-975b-03705398f7e0
+  name: forge-app-custom-ui
+permissions:
+  scopes:
+    - read:jira-work
+  content:
+    styles:
+      - 'unsafe-inline'
