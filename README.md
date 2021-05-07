@@ -1,4 +1,4 @@
-# Forge App using Custom UI
+# Forge App with Custom UI
 
 This project contains a Forge app written in Javascript that allows search, view and open issues in a Jira project page.
 
