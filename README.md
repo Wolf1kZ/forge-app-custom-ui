@@ -36,7 +36,7 @@ npm install -g @forge/cli@latest
 
 ### Register the app
 
-- Register the app by running
+- Register the app by running (you should overwrite the existing app details)
   > Note, the forge register command creates a unique app ID in the manifest.yml file and links the ID to the current developer. Forge apps can currently only be deployed and installed by the developer who is linked to the app.
 
 ```
